@@ -29,6 +29,7 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
   return str;
+
 }
 
 function suma(x, y) {
@@ -194,6 +195,16 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   
+  if(numero === 0){
+    return false;
+  }
+  else if(numero > 0){
+    return "Es positivo";
+  }
+  else{
+    return "Es negativo";
+  }
+
 }
 
 function agregarSimboloExclamacion(str) {
@@ -219,11 +230,10 @@ function obtenerSaludo(nombre) {
   return 'Hola' + nombre + '!';
   
 }
-
+ 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  
   
 }
 
