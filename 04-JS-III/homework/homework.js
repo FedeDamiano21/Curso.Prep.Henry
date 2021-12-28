@@ -158,7 +158,6 @@ function diaDeLaSemana(numeroDeDia) {
     return "Es fin de semana";
   }
   return "Es dia Laboral";
-
 } 
 
 
@@ -167,6 +166,7 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
+  
   if(n.toString()[0] === "9"){
     return true;
   }
@@ -179,18 +179,17 @@ function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
+  
   var contador = 0;
-
   for (var i = 1; i < arreglo.length; i++) {
     if(arreglo[i - 1] !== arreglo[i]){
       contador++;
-    }
+    }  
   }
   if(contador > 0){
     return true;
   }
   return false;
-
 }
 
 
