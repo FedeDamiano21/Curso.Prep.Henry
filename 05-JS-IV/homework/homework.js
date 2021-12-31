@@ -39,7 +39,7 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
-  objetoMisterioso.numeroMisterioso * 5
+   return objetoMisterioso.numeroMisterioso * 5
 
 }
 
@@ -120,7 +120,7 @@ function pasarUsuarioAPremium(usuarios) {
   // Devuelve el array de usuarios
   // Tu código:
   for (var i = 0; i < usuarios.length; i++) {
-    usuarios.esPremium = true;    
+    usuarios[i].esPremium = true;    
   }
   return usuarios;
 }
