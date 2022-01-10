@@ -1,0 +1,40 @@
+
+body{
+    background-image: url(/08-HTML/img/fondo.jpg);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+img{
+    width: 400px;
+
+}
+
+.divClass{
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+#thirdDiv{
+   height: 600px;
+   width: 500px;
+   background-color: blanchedalmond;
+   padding: 50px;
+   border: 4px solid rgb(250, 210, 151);
+   display: block;
+   margin: auto;
+   
+}
+
+#spanId{
+   font-size: 18px;
+   margin: 50px;
+}
+
+#link{
+    color: white;
+}
